@@ -34,6 +34,9 @@ contract SimpleFlashLoan is FlashLoanSimpleReceiverBase {
     /**
         This function is called after your contract has received the flash loaned amount
      */
+/** 
+How do we bring the borrowed amount into Uniswap, then back through Sushi swap?
+*/
     function  executeOperation(
         address asset,
         uint256 amount,
